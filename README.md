@@ -24,10 +24,10 @@ Notes:
 
 ## Node.cpp
 
-Implements all functions detailed in `Node.h`.
+Implements all functions detailed in `Node.h`, with default constructor implementation commented out below the primary constructor. 
 
 Notes:
 
-- The constructor for a Node sets the pointer to the next object as NULL.
+- The constructor for a Node sets the pointer to the next object as `NULL`.
 
 - The destructor for a Node calls the Student class destructor. 
